@@ -7,7 +7,38 @@
     <!-- <link ref="stylesheet" href="../dist/output.css" /> -->
     <link href="../dist/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-green-500">
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <body class="bg-gray-200">
+    <div class="flex w-screen h-screen">
+      <div class="bg-white w-[450px] p-12">
+        <img src="./assets/images/favicon.png" class="w-14" />
+        <div class="mt-14 mb-16">
+          <h1 class="text-2xl font-bold">Acesse sua conta</h1>
+        </div>
+
+        <div class="flex space-x-1.5">
+          <button
+            class="w-[125pc] h-14 flex items-center text-sm font-medium text-gray-700 border border-gray-300 rounded-lg px-4 py-2"
+          >
+            <img src="./assets/svg/facebook.svg" class="w-6 h-6 mr-2" />
+            Facebook
+          </button>
+
+          <button
+            class="w-[125pc] h-14 flex items-center text-sm font-medium text-gray-700 border border-gray-300 rounded-lg px-4 py-2"
+          >
+            <img src="./assets/svg/google.svg" class="w-6 h-6 mr-2" />
+            Google
+          </button>
+        </div>
+
+        <div class="relative flex items-center justify-center my-6">
+          <div class="absolute bg-gray-300 h-px inset-x-0"></div>
+          <div class="relative text-sm font-medium text-gray-500 bg-white px-2">
+            ou continue com seu email
+          </div>
+        </div>
+      </div>
+      <div>Col 2</div>
+    </div>
   </body>
 </html>
